@@ -1,0 +1,110 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style> body {background-color: black; text-align: center;} input[type=submit] {background-color: black; color:green;} </style>
+    <title>Enter Some Text</title>
+    <form id="form" onsubmit="return false;">
+    <p align="center"><input type="text" id="userInput" value=''/>
+    <input type="submit" value="SUBMIT" style="font-weight:bold" onclick="myFunction();" /></p>
+    </form>
+
+<script>
+ function myFunction() {
+var data = document.getElementById("userInput").value;
+let result = data.split(" ").join("\n");
+// alert(result);
+for (var i = 0; i < result.length; i++) {
+  // alert(result.charAt(i));
+     // document.write("Hello World!\n");
+     if (result.charAt(i) == "a" || result.charAt(i) == "A" ) {
+        document.write("<img src=\"./images/A.png\" height=\"50\">");
+}     else if (result.charAt(i) == "b" || result.charAt(i) == "B" ) {
+        document.write("<img src=\"./images/B.png\" height=\"50\">");
+}     else if (result.charAt(i) == "c" || result.charAt(i) == "C" ) {
+        document.write("<img src=\"./images/C.png\" height=\"50\">");
+}     else if (result.charAt(i) == "\n") {
+        document.write("<br>\n");
+}     else if (result.charAt(i) == "d" || result.charAt(i) == "D" ) {
+        document.write("<img src=\"./images/D.png\" height=\"50\">");
+}     else if (result.charAt(i) == "e" || result.charAt(i) == "E" ) {
+        document.write("<img src=\"./images/E.png\" height=\"50\">");
+}     else if (result.charAt(i) == "f" || result.charAt(i) == "F" ) {
+        document.write("<img src=\"./images/F.png\" height=\"50\">");
+}     else if (result.charAt(i) == "g" || result.charAt(i) == "G" ) {
+        document.write("<img src=\"./images/G.png\" height=\"50\">");
+}     else if (result.charAt(i) == "h" || result.charAt(i) == "H" ) {
+        document.write("<img src=\"./images/H.png\" height=\"50\">");
+}     else if (result.charAt(i) == "i" || result.charAt(i) == "I" ) {
+        document.write("<img src=\"./images/I.png\" height=\"50\">");
+}     else if (result.charAt(i) == "j" || result.charAt(i) == "J" ) {
+        document.write("<img src=\"./images/J.png\" height=\"50\">");
+}     else if (result.charAt(i) == "k" || result.charAt(i) == "K" ) {
+        document.write("<img src=\"./images/K.png\" height=\"50\">");
+}     else if (result.charAt(i) == "l" || result.charAt(i) == "L" ) {
+        document.write("<img src=\"./images/L.png\" height=\"50\">");
+}     else if (result.charAt(i) == "m" || result.charAt(i) == "M" ) {
+        document.write("<img src=\"./images/M.png\" height=\"50\">");
+}     else if (result.charAt(i) == "n" || result.charAt(i) == "N" ) {
+        document.write("<img src=\"./images/N.png\" height=\"50\">");
+}     else if (result.charAt(i) == "o" || result.charAt(i) == "O" ) {
+        document.write("<img src=\"./images/O.png\" height=\"50\">");
+}     else if (result.charAt(i) == "p" || result.charAt(i) == "P" ) {
+        document.write("<img src=\"./images/P.png\" height=\"50\">");
+}     else if (result.charAt(i) == "q" || result.charAt(i) == "Q" ) {
+        document.write("<img src=\"./images/Q.png\" height=\"50\">");
+}     else if (result.charAt(i) == "r" || result.charAt(i) == "R" ) {
+        document.write("<img src=\"./images/R.png\" height=\"50\">");
+}     else if (result.charAt(i) == "s" || result.charAt(i) == "S" ) {
+        document.write("<img src=\"./images/S.png\" height=\"50\">");
+}     else if (result.charAt(i) == "t" || result.charAt(i) == "T" ) {
+        document.write("<img src=\"./images/T.png\" height=\"50\">");
+}     else if (result.charAt(i) == "u" || result.charAt(i) == "U" ) {
+        document.write("<img src=\"./images/U.png\" height=\"50\">");
+}     else if (result.charAt(i) == "v" || result.charAt(i) == "V" ) {
+        document.write("<img src=\"./images/V.png\" height=\"50\">");
+}     else if (result.charAt(i) == "w" || result.charAt(i) == "W" ) {
+        document.write("<img src=\"./images/W.png\" height=\"50\">");
+}     else if (result.charAt(i) == "x" || result.charAt(i) == "X" ) {
+        document.write("<img src=\"./images/X.png\" height=\"50\">");
+}     else if (result.charAt(i) == "y" || result.charAt(i) == "Y" ) {
+        document.write("<img src=\"./images/Y.png\" height=\"50\">");
+}     else if (result.charAt(i) == "z" || result.charAt(i) == "Z" ) {
+        document.write("<img src=\"./images/Z.png\" height=\"50\">");
+}     else if (result.charAt(i) == "." ) {
+        document.write("<img src=\"./images/period.png\" height=\"25\">");
+}     else if (result.charAt(i) == "?" ) {
+        document.write("<img src=\"./images/question.png\" height=\"50\">");
+}     else if (result.charAt(i) == "!" ) {
+        document.write("<img src=\"./images/point.png\" height=\"50\">");
+}    else if (result.charAt(i) == '0' ) {
+        document.write("<img src=\"./images/0.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '1' ) {
+        document.write("<img src=\"./images/1.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '2' ) {
+        document.write("<img src=\"./images/2.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '3' ) {
+        document.write("<img src=\"./images/3.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '4' ) {
+        document.write("<img src=\"./images/4.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '5' ) {
+        document.write("<img src=\"./images/5.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '6' ) {
+        document.write("<img src=\"./images/6.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '7' ) {
+        document.write("<img src=\"./images/7.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '8' ) {
+        document.write("<img src=\"./images/8.png\" height=\"50\">");
+}
+     else if (result.charAt(i) == '9' ) {
+        document.write("<img src=\"./images/9.png\" height=\"50\">");
+}
+}
+document.write("<style> body {background-color: black; text-align: center;} </style>"); 
+}
+</script>
