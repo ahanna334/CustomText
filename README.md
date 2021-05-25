@@ -1,6 +1,6 @@
 # CustomText
 
-https://elegant-blackwell-733340.netlify.app/
+https://customtext.netlify.app/
 
 ![1](https://github.com/ahanna334/CustomText/blob/main/0_ahanna334.png)
 
